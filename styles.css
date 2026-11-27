@@ -312,6 +312,62 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
+.transport-steps {
+  width: fit-content;
+  margin: 1.25rem auto;
+  padding-left: 1.5rem;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.stay-booking-form {
+  text-align: center;
+}
+
+.stay-booking-form .tax-card > .card-body {
+  box-sizing: border-box;
+}
+
+.price-range {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.price-range input {
+  box-sizing: border-box;
+  flex: 1 1 0;
+  min-width: 0;
+  width: 0;
+  height: 44px;
+  padding: 0 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.price-range input:focus {
+  border-color: #4d88d7;
+  outline: 2px solid rgba(77, 136, 215, 0.2);
+}
+
+.stay-search-button {
+  min-height: 44px;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: #4d88d7;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.stay-search-button:hover {
+  background-color: #3974c2;
+}
+
 .business {
   padding: 3rem 1rem;
   /* margin: 1rem; */
@@ -718,6 +774,14 @@ nav a:hover {
   width: 50%;
   padding-left: 15px;
   padding-right: 15px;
+}
+.food-section-image {
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
 }
 @media (min-width: 768px) {
   .about-media {
