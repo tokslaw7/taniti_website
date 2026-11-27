@@ -71,7 +71,7 @@
                 started.
             </p>
 
-            <form action="./bookings.html" method="GET">
+            <form class="stay-booking-form" action="./bookings.html" method="GET">
                 <div class="tax-card">
                     <div class="card-body">
                         <img src="images/checkin.jpg" alt="checkin">
@@ -99,7 +99,7 @@
 
                     <div class="card-body">
                         <img src="images/priceRange.jpg" alt="price range">
-                        <div style="display: flex; align-items: center; gap: 8px;">
+                        <div class="price-range">
                             <span>$</span>
                             <input type="number" name="min_price" placeholder="Min" min="0" step="1"
                                 aria-label="Minimum price in dollars">
@@ -108,9 +108,8 @@
                                 aria-label="Maximum price in dollars">
                         </div>
                     </div>
-
-                    <button type="submit" class="btn btn-primary">Search</button>
                 </div>
+                <button type="submit" class="btn btn-primary stay-search-button">Search</button>
             </form>
 
 
