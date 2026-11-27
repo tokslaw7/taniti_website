@@ -312,6 +312,14 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
+.transport-steps {
+  width: fit-content;
+  margin: 1.25rem auto;
+  padding-left: 1.5rem;
+  text-align: left;
+  line-height: 1.8;
+}
+
 .stay-booking-form {
   text-align: center;
 }
