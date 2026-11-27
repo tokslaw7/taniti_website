@@ -775,6 +775,14 @@ nav a:hover {
   padding-left: 15px;
   padding-right: 15px;
 }
+.food-section-image {
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+}
 @media (min-width: 768px) {
   .about-media {
     width: 50%;
